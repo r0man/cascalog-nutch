@@ -4,4 +4,5 @@
                   :exclusions [org.codehaus.janino/janino
                                thirdparty/jgrapht-jdk1.6
                                riffle/riffle]]
-                 [org.apache.nutch/nutch "1.4"]])
+                 [org.apache.nutch/nutch "1.4"]
+                 [org.clojure/clojure "1.3.0"]])

@@ -1,4 +1,4 @@
-(ns cascading.nutch.core
+(ns cascalog.nutch.core
   (:import [cascalog.nutch ContentScheme ParseDataScheme ParseTextScheme])
   (:use [cascalog.tap :only (hfs-tap)]))
 

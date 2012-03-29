@@ -26,7 +26,7 @@ public class NutchScheme extends SequenceFile {
     @Override
     public Tuple source(Object key, Object value) {
         Tuple tuple = new Tuple();
-        tuple.add(key);
+        tuple.add(key.toString());
         tuple.add(value);
         return tuple;
     }

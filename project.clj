@@ -5,4 +5,5 @@
                  [org.clojure/clojure "1.3.0"]]
   :dev-dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]]
   :source-path "src/clj"
-  :java-source-path "src/jvm")
+  :java-source-path "src/jvm"
+  :javac-options {:target "1.6"})

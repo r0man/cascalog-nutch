@@ -1,7 +1,7 @@
 (defproject cascalog-nutch "0.0.1-SNAPSHOT"
   :description "Cascading Schemes and Cascalog helpers for Nutch sequence files."
   :dependencies [[cascalog "1.8.6"]
-                 [org.apache.nutch/nutch "1.4"]
+                 [org.apache.nutch/nutch "1.5"]
                  [org.clojure/clojure "1.4.0"]]
   :dev-dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]]
   :source-path "src/clj"

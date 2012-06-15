@@ -3,7 +3,7 @@
   :dependencies [[cascalog "1.8.6"]
                  [org.apache.nutch/nutch "1.5"]
                  [org.clojure/clojure "1.4.0"]]
-  :dev-dependencies [[org.apache.hadoop/hadoop-core "0.20.2-dev"]]
-  :source-path "src/clj"
-  :java-source-path "src/jvm"
+  :profiles {:dev {:dependencies [[org.apache.hadoop/hadoop-core "0.20.2-cdh3u3"]]}}
+  :source-paths ["src/clj"]
+  :java-source-paths ["src/jvm"]
   :javac-options {:target "1.6"})

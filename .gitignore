@@ -7,4 +7,4 @@
 /checkouts
 /.lein-deps-sum
 /.lein-plugins/checksum
-/target/stale/dependencies
+/target

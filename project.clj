@@ -1,6 +1,6 @@
-(defproject cascalog-nutch "0.0.2-SNAPSHOT"
+(defproject cascalog-nutch "0.0.3-SNAPSHOT"
   :description "Cascading Schemes and Cascalog helpers for Nutch sequence files."
-  :dependencies [[cascalog "1.9.0"]
+  :dependencies [[cascalog "1.10.0"]
                  [cascalog-more-taps "0.2.1"]
                  [org.apache.nutch/nutch "1.5"]
                  [org.clojure/clojure "1.4.0"]]
